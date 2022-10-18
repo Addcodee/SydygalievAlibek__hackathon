@@ -1,0 +1,262 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+}
+
+.page__container{
+  width: 90%;
+  display: flex;
+  background-color: #FBFAFE;
+  box-shadow: 0px 0px 60px -8px rgba(29, 40, 48, 0.18);
+  margin-top: 2.5rem;
+  height: 70rem;
+  border: 2px dashed #F0EBFA;
+}
+
+nav{
+  width: 25%;
+  background-color: #e8dcff;
+  height: 70rem;
+}
+
+.nav__ava{
+  width: 10em;
+  height: 10em;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.navbar__container{
+  font-size: 14px;
+  display: flex;
+  justify-content: center;
+}
+
+.nav__avatar{
+  display: flex;
+  justify-content: center;
+  padding: 1em;
+}
+
+.nav__list{
+  font-size: 1em;
+  display: flex;
+  flex-direction: column;
+}
+
+.navbar__container-width{
+  width: 90%;
+}
+
+.list__item{
+  margin-bottom: 4em;
+  text-align: justify;
+  cursor: pointer;
+}
+
+.nav__title{
+   font-size: 2em; 
+   color: #35414B;
+   text-align: center;
+}
+.nav__desc{
+  color: #4E5A65;
+}
+
+p{
+  display: flex;
+}
+
+#nav__intro{
+  transition: 0.7s;
+}
+
+#nav__intro:hover{
+  text-decoration-line: underline;
+  transform: scale(1.2);
+}
+
+#nav__exp{
+  transition: 0.7s;
+}
+
+#nav__exp:hover{
+  text-decoration-line: underline;
+  transform: scale(1.2);
+}
+
+#nav__skills{
+  transition: 0.7s;
+}
+
+#nav__skills:hover{
+  text-decoration-line: underline;
+  transform: scale(1.2);
+}
+
+#nav__intro__desc{
+  transition: 1s;
+}
+
+#nav__intro__desc:hover{
+  background-color: #d6c0ff;
+  transform: scale(1.2);
+  border-radius: 1rem;
+  height: 6.2rem;
+  width: 18rem;
+}
+
+#nav__exp__desc{
+  transition: 1s;
+}
+
+#nav__exp__desc:hover{
+  background-color: #d6c0ff;
+  transform: scale(1.2);
+  border-radius: 1rem;
+  height: 6.2rem;
+  width: 18rem;
+}
+
+#nav__skills__desc{
+  transition: 1s;
+  margin: 0;
+}
+
+#nav__skills__desc:hover{
+  background-color: #d6c0ff;
+  transform: scale(1.2);
+  border-radius: 1rem;
+  height: 5.2rem;
+  width: 18rem;
+}
+
+.contacts__list{
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+}
+
+
+.cont__icons{
+  height: 1.5rem;
+  width: 1.5rem;
+  margin-top: 11rem;
+}
+
+#icon__whatsapp{
+  transition: 0.7s;
+}
+
+#icon__whatsapp:hover{
+  transform: scale(1.5);
+}
+
+#icon__facebook{
+  transition: 0.3s;
+}
+
+#icon__facebook:hover{
+  transform: scale(1.5);
+}
+
+#icon__instagram{
+  transition: 0.7s;
+}
+
+#icon__instagram:hover{
+  transform: scale(1.5);
+}
+
+#icon__telegram{
+  transition: 0.7s;
+}
+
+#icon__telegram:hover{
+  transform: scale(1.5);
+}
+
+.header{
+  width: 75%;
+  display: flex;
+  justify-content: center;
+}
+
+.header__container{
+  width: 90%;
+}
+
+
+.header__title{
+  font-size: 3em;
+  font-weight: 600;
+  color: #35414B;
+}
+
+.title__alibek{
+  margin-bottom: 0;
+}
+.title__sydygaliev{
+  margin: 0;
+}
+
+.title__profession{
+  margin-top: 0;
+  color: #56626c8f;
+  font-size: 1.5rem;
+}
+
+.header__list{
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.65em;
+}
+
+.item__title{
+  color: #35414B;
+}
+
+.item__desc{
+  color: #4E5A65;
+}
+.header__cont-experience{
+  text-align: center;
+  width: 100%;
+  margin-top: 4rem;
+}
+.exp__title{
+  color: #35414B;
+}
+
+.exp__blocks{
+  display: flex;
+  flex-direction: column;
+}
+.exp__desc{
+  width: 17em;
+  height: 8em;
+  background-color: #F6F3FC;
+  border: 1px solid;
+  color: #4E5A65;
+  border-radius: 1em;
+  margin-top: 2rem;
+  margin-left: 2rem;
+}
+.exp__desc2{
+  width: 17em;
+  height: 8em;
+  background-color: #F6F3FC;
+  border: 1px solid;
+  color: #4E5A65;
+  border-radius: 1em;
+  margin-top: 2rem;
+  margin-left: 65%;
+}
